@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in PHP related to type juggling with the `strpos()` function. The code example shows how `strpos()`'s return value (`false` when the substring is not found) is treated as `0` in a boolean context causing incorrect logic. The solution showcases how to properly check for the substring's existence.
